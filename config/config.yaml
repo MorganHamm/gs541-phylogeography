@@ -48,7 +48,7 @@ filter:
   # Select a subset of sequences per unique geographic and temporal group.
   # This limits the number of sequences in the base build to prevent long runtimes.
   group_by: "division year month"
-  sequences_per_group: 2000
+  sequences_per_group: 10
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.
